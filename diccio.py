@@ -7,10 +7,8 @@ import requests,obo
 -h -> mostrar esta informacion
 u -> url a analizar
 -sw "es/en/cat/all" -> escogemos su queremos sacar algun tipo de stopwords o todos
--l "1,2,3,4,..."-> decidimos que longitud minima queremos tener en cuenta (default 2)
--f -> archivo de salida passwords sin tratar (default pass.txt)
--fi -> archivo de salida passwords con numeros en centro
--fs -> archivo de salida passwords delante / detras
+-l "1,2,3,4,..."-> decidimos que longitud minima queremos tener en cuenta 
+-f -> archivo de salida 
 -ni -> numero maximo interior
 -ns -> numero màximo delante / detras"""
 
