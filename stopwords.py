@@ -56,6 +56,9 @@ stopwords += ['whoever', 'whole', 'whom', 'whose', 'why', 'will', 'with']
 stopwords += ['within', 'without', 'would', 'yet', 'you', 'your']
 stopwords += ['yours', 'yourself', 'yourselves']
 
+"""HTML"""
+htmlwords = ['eacute','nbsp','oacute','var','rev','agrave','egrave']
+
 """Spanish"""
 palabrastop = ['a','acá','ahí','ajena','ajeno','ajenas','ajenos','al']
 palabrastop += ['algo','algún','alguna','alguno','algunas','algunos']

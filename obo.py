@@ -60,6 +60,7 @@ def removeStopwords(wordlist,idioma):
         stop = stopwords.stopwords
         stop += stopwords.palabrastop
         stop += stopwords.paraulestop
+    stop += stopwords.htmlwords
     return [w for w in wordlist if w not in stop]
 
 """Funcion a la que le pasamos una lista de listas y nos crea un archivo
